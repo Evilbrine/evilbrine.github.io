@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div id="timer">00:00:00</div>
+        <div class="buttons">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="stopTimer()">Stop</button>
+        </div>
+        <div class="buttons">
+            <button onclick="addTime()">Add 1 Min</button>
+            <button onclick="deductTime()">Deduct 1 Min</button>
+            <button onclick="doubleTime()">Double Time</button>
+            <button onclick="halfTime()">Half Time</button>
+        </div>
+	<div class="buttons">
+            <button onclick="setTime1()">Set to 1 Min</button>
+            <button onclick="setTime2()">Set to 2 Min</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
